@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Redirector</title>
+  <style>
+    body { font-family: Arial, sans-serif; }
+    .container { padding: 20px; }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Login Redirector</h1>
+    <button id="useSaved">Use Saved Credentials</button>
+    <button id="enterNew">Enter New Credentials</button>
+    <div id="credentialsForm" class="hidden">
+      <input type="text" id="username" placeholder="Username">
+      <input type="password" id="password" placeholder="Password">
+      <button id="saveCredentials">Save and Redirect</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
